@@ -1,2 +1,0 @@
-# JSExercise
-JS tutoring
