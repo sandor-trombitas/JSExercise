@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main, .img-list {
+    width: 800px;
+    height: auto;
+}
+
+.img-list {
+    display: flex;
+    flex-direction: row;
+    height:300px;
+}
+
+.thumb {
+    width: 100%;
+}
+img {
+    max-width: 100%;
+}
