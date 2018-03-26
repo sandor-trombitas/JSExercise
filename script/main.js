@@ -6,6 +6,8 @@ var imglist = document.getElementsByClassName('img-list');
 for (var i=0; i<imglist.length; i++) {
   var clickedimg = imglist[i];
   clickedimg.addEventListener('click', function(event) {
+    var currentmain = mainimg.src;
     mainimg.src = event.target.src;
+    event.target.src = currentmain;
   });
 }
